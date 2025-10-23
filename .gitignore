@@ -1,0 +1,27 @@
+# Node modules
+node_modules/
+
+# Environment files
+
+.env
+.env.production
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache / Build
+.cache/
+dist/
+build/
+
+# Database & Keys
+src/db.json
+
+# IDE configs
+.vscode/
+.idea/

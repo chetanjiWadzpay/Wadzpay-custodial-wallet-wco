@@ -1,0 +1,18 @@
+{
+  "name": "custodial-wallet",
+  "version": "1.0.0",
+  "description": "Custodial wallet project with native WCO + USDT on W Chain",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "create-wallet": "node src/scripts/createCustodial.js",
+    "sweep": "node src/scripts/batchSweep.js"
+  },
+  "dependencies": {
+    "ethers": "^6.9.2",
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "lowdb": "^7.0.1"
+  },
+  "type": "module"
+}
