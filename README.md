@@ -92,10 +92,14 @@ npm run sweep
 🎉 Batch sweep complete. 
 
 
-🧰 Available npm Scripts
-Command	Description
-npm run create-wallet	Create & fund a new custodial wallet
-npm run sweep	Sweep all wallets to the hot wallet
+🧰 Available npm Scripts 
+
+Command	Description 
+
+npm run create-wallet	Create & fund a new custodial wallet 
+
+npm run sweep	Sweep all wallets to the hot wallet 
+
 npm start	Run the Express API server
 
 ...
